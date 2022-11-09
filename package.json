@@ -1,20 +1,27 @@
 {
   "name": "strapi-wechat-miniprogram-auth",
-  "version": "0.0.2",
-  "description": "This is the description of the plugin.",
+  "version": "0.0.3",
+  "description": "Helps you to easily create WeChat MiniProgram authentication available for your user.",
   "strapi": {
     "name": "strapi-wechat-miniprogram-auth",
-    "description": "Description of Strapi Wechat Miniprogram Auth plugin",
+    "description": "Helps you to easily create WeChat MiniProgram authentication available for your user.",
     "kind": "plugin",
     "displayName": "Strapi Wechat Miniprogram Auth"
   },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0"
+  },
   "dependencies": {},
   "author": {
-    "name": "A Strapi developer"
+    "name": "wfzong",
+    "email": "wfz123@126.com",
+    "url": "https://juejin.cn/user/61228379824296"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer"
+      "name": "wfzong",
+      "email": "wfz123@126.com",
+      "url": "https://juejin.cn/user/61228379824296"
     }
   ],
   "engines": {
