@@ -1,6 +1,6 @@
 {
   "name": "strapi-wechat-miniprogram-auth",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Helps you to easily create WeChat MiniProgram authentication available for your user.",
   "strapi": {
     "name": "strapi-wechat-miniprogram-auth",
