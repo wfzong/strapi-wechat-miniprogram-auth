@@ -2,7 +2,7 @@
 const wechatCreds = require("./wechat-credential");
 
 module.exports = {
-    "wechat-credential": {
+    "wx-credential": {
         schema: wechatCreds
     }
 };

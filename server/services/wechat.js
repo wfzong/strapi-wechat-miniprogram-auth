@@ -1,7 +1,7 @@
 'use strict';
 const axios = require("axios")
 const pluginId = require("../pluginId")
-let queryIdentification = `plugin::${pluginId}.wechat-credential`
+let queryIdentification = `plugin::${pluginId}.wx-credential`
 
 module.exports = ({ strapi }) => ({
 

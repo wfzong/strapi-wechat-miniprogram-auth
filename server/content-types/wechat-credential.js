@@ -2,8 +2,8 @@ module.exports = {
     "kind": "singleType",
     info: {
         "displayName": "WeChat Credentials",
-        "singularName": "wechat-credential",
-        "pluralName": "wechat-credentials",
+        "singularName": "wx-credential",
+        "pluralName": "wx-credentials",
         "description": "Stores WeChat Mini program credentials",
         "tableName": "wechat_auth_creds",
     },
