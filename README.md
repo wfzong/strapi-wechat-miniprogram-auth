@@ -62,7 +62,7 @@ login(e) {
       success: res => {
         // 发送res.code到后台换取openId,sessionKey,unionId
         wx.request({
-          url: 'STRAPI_BACKEND_URL/strapi-wechat-miniprogram-auth/login',
+          url: 'http://STRAPI_BACKEND_URL/strapi-wechat-miniprogram-auth/login',
           method: "post",
           data: {
             code: res.code,
